@@ -1,0 +1,230 @@
+{
+  "profile": {
+    "name": "Vivek Pundir",
+    "professionalTitle": "Full Stack Native Developer",
+    "email": "vivek.pundir.dev@gmail.com",
+    "phone": "8544710138",
+    "image": "/profile.jpeg",
+
+    "about": "I am a passionate Full Stack Developer with around 3 years of experience building modern, scalable and responsive web applications. I specialize in developing complete frontend and backend systems, REST APIs, authentication systems, database architectures, admin dashboards, e-commerce platforms and business applications. I enjoy turning ideas into reliable digital products with clean interfaces, efficient backend architecture and modern technologies.",
+
+    "shortAbout": "Full Stack Developer with 3 years of experience building modern web applications, REST APIs, e-commerce platforms, CRM systems and scalable business solutions.",
+
+    "experience": {
+      "totalYears": 3,
+      "label": "3+ Years Experience",
+
+      "jobs": [
+        {
+          "id": 1,
+          "company": "Digital Paaji",
+          "role": "Full Stack Developer",
+          "startDate": "October 2025",
+          "endDate": "Present",
+          "duration": "October 2025 - Present",
+          "type": "Full Time",
+          "description": "Working as a Full Stack Developer, developing modern web applications, business platforms, dashboards, APIs and complete frontend-backend solutions.",
+          "responsibilities": [
+            "Developing full stack web applications",
+            "Building responsive frontend interfaces",
+            "Developing REST APIs",
+            "Designing backend architecture",
+            "Working with MongoDB and Mongoose",
+            "Implementing authentication and authorization",
+            "Building admin dashboards and CRM systems",
+            "Integrating third-party services and APIs",
+            "Working with payment gateways",
+            "Deploying and maintaining web applications"
+          ],
+          "technologies": [
+            "Next.js",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "Tailwind CSS",
+            "JWT",
+            "Razorpay",
+            "Nodemailer",
+            "Cloudinary",
+            "Axios",
+            "Git",
+            "PM2",
+            "Nginx"
+          ]
+        },
+
+        {
+          "id": 2,
+          "company": "Future IT Touch",
+          "role": "Full Stack Developer",
+          "startDate": "Before October 2025",
+          "endDate": "September 2025",
+          "duration": "Previous Experience",
+          "type": "Full Stack Development",
+          "description": "Worked as a Full Stack Developer, contributing to frontend and backend development and building complete web solutions for different requirements.",
+          "responsibilities": [
+            "Frontend development",
+            "Backend development",
+            "REST API development",
+            "Database integration",
+            "Responsive website development",
+            "Authentication implementation",
+            "Admin panel development",
+            "API integration"
+          ],
+          "technologies": [
+            "React.js",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "MySQL",
+            "Tailwind CSS",
+            "JavaScript",
+            "REST API",
+            "Git"
+          ]
+        }
+      ]
+    },
+
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "shortName": "BA",
+        "level": "Bachelor's Degree"
+      }
+    ],
+
+    "skills": {
+      "frontend": [
+        "Next.js",
+        "React.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "GSAP",
+        "Framer Motion",
+        "Swiper"
+      ],
+
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "Laravel",
+        "PHP",
+        "REST API"
+      ],
+
+      "database": [
+        "MongoDB",
+        "Mongoose",
+        "MySQL",
+        "PostgreSQL"
+      ],
+
+      "authentication": [
+        "JWT",
+        "HTTP Only Cookies",
+        "Token Based Authentication",
+        "Role Based Access Control"
+      ],
+
+      "payments": [
+        "Razorpay",
+        "Payment Gateway Integration"
+      ],
+
+      "communication": [
+        "Nodemailer",
+        "Email Notifications"
+      ],
+
+      "media": [
+        "Cloudinary",
+        "Multer",
+        "Image Upload",
+        "Video Upload"
+      ],
+
+      "devops": [
+        "PM2",
+        "Nginx",
+        "Apache",
+        "Linux",
+        "VPS Deployment",
+        "SSL / HTTPS",
+        "Certbot"
+      ],
+
+      "tools": [
+        "Git",
+        "GitHub",
+        "Axios",
+        "Postman",
+        "VS Code"
+      ],
+
+      "other": [
+        "API Integration",
+        "MongoDB Aggregation",
+        "Search & Filtering",
+        "Pagination",
+        "Admin Dashboards",
+        "CRM Development",
+        "E-Commerce Development",
+        "Responsive Web Design"
+      ]
+    },
+
+    "services": [
+      "Full Stack Web Development",
+      "Next.js Development",
+      "React.js Development",
+      "Node.js Backend Development",
+      "REST API Development",
+      "E-Commerce Development",
+      "CRM Development",
+      "Admin Dashboard Development",
+      "Payment Gateway Integration",
+      "Authentication Systems",
+      "Database Design",
+      "API Integration",
+      "VPS Deployment",
+      "Website Maintenance"
+    ],
+
+    "highlights": [
+      "3+ Years Full Stack Development Experience",
+      "Frontend and Backend Development",
+      "Modern Next.js Applications",
+      "Node.js REST APIs",
+      "MongoDB Database Architecture",
+      "E-Commerce Platforms",
+      "CRM Systems",
+      "Admin Dashboards",
+      "Payment Gateway Integration",
+      "Authentication & Authorization",
+      "Production Deployment"
+    ],
+
+    "developmentApproach": [
+      "Clean and maintainable code",
+      "Responsive and user-friendly interfaces",
+      "Secure backend architecture",
+      "Scalable API design",
+      "Performance focused development",
+      "Reusable components",
+      "Database optimized solutions",
+      "Production ready deployment"
+    ],
+
+    "contact": {
+      "email": "vivek.pundir.dev@gmail.com",
+      "phone": "8544710138"
+    }
+  }
+}

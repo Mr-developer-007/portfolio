@@ -1,0 +1,645 @@
+[
+  {
+    "id": 1,
+    "title": "NextGen Trip",
+    "slug": "nextgen-trip",
+    "url": "https://nextgentrip.com/",
+    "category": "Travel & Tourism",
+    "type": "Travel Web Application",
+    "role": "Full Stack Developer",
+    "technologies": {
+      "frontend": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "backend": [
+        "Laravel",
+        "PHP",
+        "REST API"
+      ],
+      "database": [
+        "MySQL"
+      ],
+      "authentication": [
+        "JWT Authentication",
+        "Token Based Authentication"
+      ],
+      "payments": [
+        "Razorpay"
+      ],
+      "communication": [
+        "Nodemailer"
+      ],
+      "tools": [
+        "Git",
+        "GitHub",
+        "Axios"
+      ]
+    },
+    "features": [
+      "User Authentication",
+      "User Registration and Login",
+      "JWT Based Authentication",
+      "Travel Package Management",
+      "Search and Filtering",
+      "Booking Management",
+      "Payment Integration",
+      "Razorpay Payment Gateway",
+      "Email Notifications",
+      "Contact Forms",
+      "Responsive Design",
+      "Admin Management",
+      "REST API Integration"
+    ],
+    "highlights": [
+      "Responsive travel platform",
+      "Secure authentication system",
+      "Online payment integration",
+      "API based frontend-backend architecture",
+      "Admin and user management"
+    ],
+    "description": "A modern travel and tourism platform developed using Next.js, Laravel and MySQL. The application provides a responsive interface, secure authentication, booking functionality, payment integration and backend API services.",
+    "frontendArchitecture": "Next.js based responsive frontend",
+    "backendArchitecture": "Laravel REST API",
+    "databaseArchitecture": "MySQL relational database",
+    "paymentGateway": "Razorpay",
+    "authentication": "JWT",
+    "emailService": "Nodemailer",
+    "styling": "Tailwind CSS",
+    "apiCommunication": "Axios / REST API",
+    "versionControl": "Git / GitHub",
+    "featured": true
+  },
+
+  {
+    "id": 2,
+    "title": "Social Scholars",
+    "slug": "social-scholars",
+    "url": "https://www.social-scholars.com/",
+    "category": "Education & Social Platform",
+    "type": "Web Application",
+    "role": "Full Stack Developer",
+    "technologies": {
+      "frontend": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "backend": [
+        "Laravel",
+        "PHP",
+        "REST API"
+      ],
+      "database": [
+        "MySQL"
+      ],
+      "authentication": [
+        "JWT Authentication",
+        "Token Based Authentication"
+      ],
+      "communication": [
+        "Nodemailer"
+      ],
+      "tools": [
+        "Axios",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "features": [
+      "User Authentication",
+      "JWT Authentication",
+      "User Registration",
+      "User Login",
+      "Profile Management",
+      "Education Content",
+      "Social Features",
+      "Search",
+      "Filtering",
+      "Email Notifications",
+      "Responsive UI",
+      "Admin Dashboard",
+      "REST API Integration"
+    ],
+    "highlights": [
+      "Modern education platform",
+      "Responsive Next.js frontend",
+      "Laravel backend",
+      "Secure authentication",
+      "Database driven application",
+      "API based architecture"
+    ],
+    "description": "An education and social platform built with Next.js, Laravel and MySQL, featuring authentication, user management, dynamic content and responsive interfaces.",
+    "frontendArchitecture": "Next.js / React",
+    "backendArchitecture": "Laravel REST API",
+    "databaseArchitecture": "MySQL",
+    "authentication": "JWT",
+    "emailService": "Nodemailer",
+    "styling": "Tailwind CSS",
+    "apiCommunication": "Axios / REST API",
+    "versionControl": "Git / GitHub",
+    "featured": true
+  },
+
+  {
+    "id": 3,
+    "title": "Saaj Riwaaj",
+    "slug": "saaj-riwaaj",
+    "url": "https://www.saajriwaaj.com/",
+    "category": "Fashion & E-Commerce",
+    "type": "E-Commerce Website",
+    "role": "Full Stack Developer",
+    "technologies": {
+      "frontend": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "REST API"
+      ],
+      "database": [
+        "MongoDB",
+        "Mongoose"
+      ],
+      "authentication": [
+        "JWT Authentication",
+        "HTTP Only Cookies"
+      ],
+      "payments": [
+        "Razorpay"
+      ],
+      "communication": [
+        "Nodemailer"
+      ],
+      "media": [
+        "Cloudinary",
+        "Multer"
+      ],
+      "tools": [
+        "Axios",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "features": [
+      "E-Commerce System",
+      "User Registration",
+      "User Login",
+      "JWT Authentication",
+      "Product Management",
+      "Product Categories",
+      "Product Search",
+      "Product Filtering",
+      "Shopping Cart",
+      "Wishlist",
+      "Coupons",
+      "Orders",
+      "Order Management",
+      "Payment Gateway",
+      "Razorpay Integration",
+      "Email Notifications",
+      "Image Upload",
+      "Cloud Image Storage",
+      "Admin Dashboard",
+      "Responsive Design"
+    ],
+    "highlights": [
+      "Complete e-commerce architecture",
+      "Secure authentication",
+      "Product and category management",
+      "Shopping cart and wishlist",
+      "Online payment integration",
+      "Admin dashboard",
+      "Cloud based image management"
+    ],
+    "description": "A premium fashion and traditional clothing e-commerce platform developed with Next.js, Node.js, Express.js and MongoDB. The platform includes product management, cart, wishlist, coupons, orders, authentication and payment integration.",
+    "frontendArchitecture": "Next.js / React",
+    "backendArchitecture": "Node.js / Express.js REST API",
+    "databaseArchitecture": "MongoDB / Mongoose",
+    "authentication": "JWT + HTTP Only Cookies",
+    "paymentGateway": "Razorpay",
+    "emailService": "Nodemailer",
+    "imageStorage": "Cloudinary",
+    "fileUpload": "Multer",
+    "styling": "Tailwind CSS",
+    "apiCommunication": "Axios",
+    "versionControl": "Git / GitHub",
+    "featured": true
+  },
+
+  {
+    "id": 4,
+    "title": "Shudyam",
+    "slug": "shudyam",
+    "url": "https://shudyam.com/",
+    "category": "Business Platform",
+    "type": "Web Application",
+    "role": "Full Stack Developer",
+    "technologies": {
+      "frontend": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "REST API"
+      ],
+      "database": [
+        "MongoDB",
+        "Mongoose"
+      ],
+      "authentication": [
+        "JWT",
+        "HTTP Only Cookies"
+      ],
+      "communication": [
+        "Nodemailer"
+      ],
+      "tools": [
+        "Axios",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "features": [
+      "Authentication",
+      "JWT Based Login",
+      "User Management",
+      "Profile Management",
+      "Dynamic Content",
+      "Search",
+      "Form Handling",
+      "Email Notifications",
+      "REST API",
+      "Admin Management",
+      "Responsive UI"
+    ],
+    "highlights": [
+      "Modern business interface",
+      "Full stack architecture",
+      "Secure authentication",
+      "MongoDB based data management",
+      "Responsive design"
+    ],
+    "description": "A modern business web platform built with Next.js, Node.js, Express.js and MongoDB with authentication, dynamic content and API driven functionality.",
+    "frontendArchitecture": "Next.js / React",
+    "backendArchitecture": "Node.js / Express.js",
+    "databaseArchitecture": "MongoDB / Mongoose",
+    "authentication": "JWT",
+    "emailService": "Nodemailer",
+    "styling": "Tailwind CSS",
+    "apiCommunication": "Axios",
+    "versionControl": "Git / GitHub",
+    "featured": false
+  },
+
+  {
+    "id": 5,
+    "title": "Digital Paaji CRM",
+    "slug": "digital-paaji-crm",
+    "url": "https://crm.digitalpaaji.com/",
+    "category": "CRM & Business Management",
+    "type": "CRM Application",
+    "role": "Full Stack Developer",
+    "technologies": {
+      "frontend": [
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "REST API"
+      ],
+      "database": [
+        "MongoDB",
+        "Mongoose"
+      ],
+      "authentication": [
+        "JWT Authentication",
+        "Role Based Access Control"
+      ],
+      "communication": [
+        "Nodemailer"
+      ],
+      "tools": [
+        "Axios",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "features": [
+      "CRM Dashboard",
+      "Admin Dashboard",
+      "User Management",
+      "Client Management",
+      "Lead Management",
+      "Lead Assignment",
+      "Client Requirements",
+      "Search",
+      "Filtering",
+      "Sorting",
+      "Pagination",
+      "Role Based Access",
+      "JWT Authentication",
+      "Email Notifications",
+      "Dashboard Statistics",
+      "Charts",
+      "REST APIs",
+      "Responsive Dashboard"
+    ],
+    "highlights": [
+      "Business CRM system",
+      "Lead management",
+      "Client management",
+      "Role based authorization",
+      "Dashboard analytics",
+      "REST API architecture",
+      "MongoDB aggregation"
+    ],
+    "description": "A complete CRM platform for managing clients, leads, requirements and business operations. The system includes dashboards, authentication, role based access, filtering, pagination, analytics and REST APIs.",
+    "frontendArchitecture": "React.js",
+    "backendArchitecture": "Node.js / Express.js",
+    "databaseArchitecture": "MongoDB / Mongoose",
+    "authentication": "JWT",
+    "authorization": "Role Based Access Control",
+    "emailService": "Nodemailer",
+    "styling": "Tailwind CSS",
+    "apiCommunication": "Axios",
+    "dataProcessing": "MongoDB Aggregation",
+    "versionControl": "Git / GitHub",
+    "featured": true
+  },
+
+  {
+    "id": 6,
+    "title": "The Vogue Wardrobe",
+    "slug": "the-vogue-wardrobe",
+    "url": "https://www.thevoguewardrobe.com/",
+    "category": "Fashion & E-Commerce",
+    "type": "E-Commerce Website",
+    "role": "Full Stack Developer",
+    "technologies": {
+      "frontend": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "REST API"
+      ],
+      "database": [
+        "MongoDB",
+        "Mongoose"
+      ],
+      "authentication": [
+        "JWT",
+        "HTTP Only Cookies"
+      ],
+      "payments": [
+        "Razorpay"
+      ],
+      "communication": [
+        "Nodemailer"
+      ],
+      "media": [
+        "Cloudinary",
+        "Multer"
+      ],
+      "tools": [
+        "Axios",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "features": [
+      "E-Commerce",
+      "Product Management",
+      "Product Categories",
+      "Product Search",
+      "Product Filtering",
+      "Shopping Cart",
+      "Wishlist",
+      "User Authentication",
+      "JWT Authentication",
+      "Order Management",
+      "Payment Integration",
+      "Razorpay",
+      "Email Notifications",
+      "Image Upload",
+      "Admin Dashboard",
+      "Responsive Design"
+    ],
+    "highlights": [
+      "Fashion e-commerce platform",
+      "Product management",
+      "Secure authentication",
+      "Shopping cart",
+      "Payment integration",
+      "Admin management"
+    ],
+    "description": "A modern fashion e-commerce platform built with Next.js, Node.js, Express.js and MongoDB, providing product discovery, shopping functionality, authentication and order management.",
+    "frontendArchitecture": "Next.js / React",
+    "backendArchitecture": "Node.js / Express.js",
+    "databaseArchitecture": "MongoDB / Mongoose",
+    "authentication": "JWT",
+    "paymentGateway": "Razorpay",
+    "emailService": "Nodemailer",
+    "imageStorage": "Cloudinary",
+    "fileUpload": "Multer",
+    "styling": "Tailwind CSS",
+    "apiCommunication": "Axios",
+    "versionControl": "Git / GitHub",
+    "featured": false
+  },
+
+  {
+    "id": 7,
+    "title": "The Paper Boat",
+    "slug": "the-paper-boat",
+    "url": "https://thepaperboat.in/",
+    "category": "E-Commerce",
+    "type": "E-Commerce Website",
+    "role": "Full Stack Developer",
+    "technologies": {
+      "frontend": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "REST API"
+      ],
+      "database": [
+        "MongoDB",
+        "Mongoose"
+      ],
+      "authentication": [
+        "JWT",
+        "HTTP Only Cookies"
+      ],
+      "payments": [
+        "Razorpay"
+      ],
+      "communication": [
+        "Nodemailer"
+      ],
+      "media": [
+        "Cloudinary",
+        "Multer"
+      ],
+      "tools": [
+        "Axios",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "features": [
+      "E-Commerce",
+      "Product Catalog",
+      "Product Categories",
+      "Search",
+      "Filtering",
+      "Shopping Cart",
+      "Wishlist",
+      "User Authentication",
+      "JWT Authentication",
+      "Order Management",
+      "Payment Gateway",
+      "Razorpay",
+      "Email Notifications",
+      "Image Management",
+      "Admin Dashboard",
+      "Responsive Design"
+    ],
+    "highlights": [
+      "Full stack e-commerce application",
+      "Modern Next.js frontend",
+      "REST API backend",
+      "MongoDB database",
+      "Secure authentication",
+      "Online payment system"
+    ],
+    "description": "A complete e-commerce platform developed using Next.js, Node.js, Express.js and MongoDB with product management, authentication, shopping functionality, orders and payment integration.",
+    "frontendArchitecture": "Next.js / React",
+    "backendArchitecture": "Node.js / Express.js",
+    "databaseArchitecture": "MongoDB / Mongoose",
+    "authentication": "JWT",
+    "paymentGateway": "Razorpay",
+    "emailService": "Nodemailer",
+    "imageStorage": "Cloudinary",
+    "fileUpload": "Multer",
+    "styling": "Tailwind CSS",
+    "apiCommunication": "Axios",
+    "versionControl": "Git / GitHub",
+    "featured": false
+  },
+
+  {
+    "id": 8,
+    "title": "Draulakh Foods",
+    "slug": "draulakh-foods",
+    "url": "https://draulakhfoods.com/",
+    "category": "Food & E-Commerce",
+    "type": "Food Business Website",
+    "role": "Full Stack Developer",
+    "technologies": {
+      "frontend": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "REST API"
+      ],
+      "database": [
+        "MongoDB",
+        "Mongoose"
+      ],
+      "authentication": [
+        "JWT Authentication"
+      ],
+      "payments": [
+        "Razorpay"
+      ],
+      "communication": [
+        "Nodemailer"
+      ],
+      "media": [
+        "Cloudinary",
+        "Multer"
+      ],
+      "tools": [
+        "Axios",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "features": [
+      "Food Product Catalog",
+      "Product Categories",
+      "Product Search",
+      "Product Filtering",
+      "Shopping Cart",
+      "User Authentication",
+      "JWT Authentication",
+      "Order Management",
+      "Online Payment",
+      "Razorpay Integration",
+      "Email Notifications",
+      "Image Upload",
+      "Cloud Image Storage",
+      "Admin Management",
+      "Responsive Design"
+    ],
+    "highlights": [
+      "Food business platform",
+      "Product catalog",
+      "E-commerce functionality",
+      "Payment integration",
+      "Authentication",
+      "Responsive interface"
+    ],
+    "description": "A food business and e-commerce platform developed with Next.js, Node.js, Express.js and MongoDB, providing product presentation, shopping functionality, authentication and online ordering capabilities.",
+    "frontendArchitecture": "Next.js / React",
+    "backendArchitecture": "Node.js / Express.js",
+    "databaseArchitecture": "MongoDB / Mongoose",
+    "authentication": "JWT",
+    "paymentGateway": "Razorpay",
+    "emailService": "Nodemailer",
+    "imageStorage": "Cloudinary",
+    "fileUpload": "Multer",
+    "styling": "Tailwind CSS",
+    "apiCommunication": "Axios",
+    "versionControl": "Git / GitHub",
+    "featured": false
+  }
+]

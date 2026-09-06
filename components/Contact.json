@@ -1,0 +1,184 @@
+{
+  "contact": {
+    "name": "Vivek Pundir",
+    "title": "Full Stack Native Developer",
+    "image": "/profile.jpg",
+
+    "availability": {
+      "status": "Available",
+      "message": "Available for freelance projects, full-time opportunities and custom web application development."
+    },
+
+    "primary": {
+      "email": "vivek.pundir.dev@gmail.com",
+      "phone": "8544710138",
+      "whatsapp": "9816897620"
+    },
+
+    "contactMethods": [
+      {
+        "id": 1,
+        "type": "Email",
+        "label": "Email Me",
+        "value": "vivek.pundir.dev@gmail.com",
+        "action": "mailto:vivek.pundir.dev@gmail.com",
+        "description": "Best way to discuss a project or business requirement.",
+        "icon": "email.png"
+      },
+      {
+        "id": 2,
+        "type": "Phone",
+        "label": "Call Me",
+        "value": "8544710138",
+        "action": "tel:8544710138",
+        "description": "Available for project discussions and technical requirements.",
+        "icon": "phone.png"
+      },
+      {
+        "id": 3,
+        "type": "WhatsApp",
+        "label": "WhatsApp Me",
+        "value": "9816897620",
+        "action": "https://wa.me/919816897620",
+        "description": "Quick communication for project discussions and inquiries.",
+        "icon": "whatsapp.png"
+      }
+    ],
+
+    "services": [
+      "Full Stack Web Development",
+      "Next.js Development",
+      "React.js Development",
+      "Node.js Backend Development",
+      "REST API Development",
+      "E-Commerce Development",
+      "CRM Development",
+      "Admin Dashboard Development",
+      "Payment Gateway Integration",
+      "Authentication Systems",
+      "Database Development",
+      "API Integration",
+      "VPS Deployment",
+      "Website Maintenance"
+    ],
+
+    "technologies": [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Laravel",
+      "PHP",
+      "MongoDB",
+      "Mongoose",
+      "MySQL",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "JavaScript",
+      "JWT",
+      "HTTP Only Cookies",
+      "Razorpay",
+      "Nodemailer",
+      "Cloudinary",
+      "Multer",
+      "Axios",
+      "GSAP",
+      "Framer Motion",
+      "Swiper",
+      "REST API",
+      "MongoDB Aggregation",
+      "React Native",
+      "Expo",
+     "Many more..."
+    ],
+
+    "projectTypes": [
+      "Business Websites",
+      "E-Commerce Platforms",
+      "CRM Systems",
+      "Admin Panels",
+      "Portfolio Websites",
+      "Booking Systems",
+      "REST API Applications",
+      "Custom Web Applications"
+    ],
+
+    "whyWorkWithMe": [
+      "3+ years of full stack development experience",
+      "Frontend and backend development expertise",
+      "Modern and responsive UI development",
+      "Secure authentication and authorization",
+      "REST API architecture",
+      "MongoDB and MySQL database experience",
+      "Payment gateway integration",
+      "Production deployment and server management",
+      "Clean and maintainable code",
+      "Performance-focused development"
+    ],
+
+    "workflow": [
+      {
+        "step": 1,
+        "title": "Requirement",
+        "description": "Understand your idea, requirements and project goals."
+      },
+      {
+        "step": 2,
+        "title": "Planning",
+        "description": "Plan the UI, architecture, database and development approach."
+      },
+      {
+        "step": 3,
+        "title": "Development",
+        "description": "Build the frontend, backend, APIs and required functionality."
+      },
+      {
+        "step": 4,
+        "title": "Testing",
+        "description": "Test functionality, responsiveness, APIs and user flows."
+      },
+      {
+        "step": 5,
+        "title": "Deployment",
+        "description": "Deploy the application to production and configure the server."
+      },
+      {
+        "step": 6,
+        "title": "Support",
+        "description": "Provide maintenance, improvements and technical support."
+      }
+    ],
+
+    "quickMessage": {
+      "title": "Have a project in mind?",
+      "description": "Tell me about your project, requirements or idea. I can help turn it into a complete, production-ready web application.",
+      "buttonText": "START A PROJECT"
+    },
+
+    "social": [
+      {
+        "name": "GitHub",
+        "username": "jonty1231",
+        "url": "https://github.com/jonty1231",
+        "icon": "github.png"
+      },
+      {
+        "name": "GitHub",
+        "username": "mr-developer-007",
+        "url": "https://github.com/mr-developer-007",
+        "icon": "github.png"
+      },
+      {
+        "name": "WhatsApp",
+        "username": "9816897620",
+        "url": "https://wa.me/919816897620",
+        "icon": "whatsapp.png"
+      }
+    ],
+
+    "response": {
+      "title": "Let's Build Something Great",
+      "message": "Whether you need a complete web application, an e-commerce platform, CRM, admin dashboard or custom REST API, feel free to get in touch."
+    }
+  }
+}

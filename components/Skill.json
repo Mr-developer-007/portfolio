@@ -1,0 +1,23 @@
+
+[
+{"name":"Java Script","logo":"javascript.png"},
+{"name":"Type Script","logo":"TypeScript.png"},
+
+
+{"name":"Html","logo":"html.png"},
+
+{"name":"Bootstrap","logo":"bootstrap.png"},
+{"name":"Git & Github","logo":"git.png"},
+{"name":"Tailwind","logo":"tailwind.png"},
+{"name":"React","logo":"react.png"},
+{"name":"Nextjs","logo":"nextjs.png"},
+{"name":"React Native","logo":"reactnative.png"},
+
+{"name":"NodeJs","logo":"nodejs.png"},
+{"name":"ExpressJs","logo":"express.png"},
+{"name":"PHP","logo":"php.png"},
+{"name":"Laravel","logo":"laravel.png"},
+{"name":"MongoDB","logo":"mongodb.png"},
+{"name":"SQL","logo":"sql.png"}
+]
+

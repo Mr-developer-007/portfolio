@@ -1,65 +1,273 @@
-import Image from "next/image";
+"use client"
+
+import AndroidPortfolio from "@/components/AndroidPortfolio";
+import Ios from "@/components/Ios";
+import Linux from "@/components/Linux";
+import WindowCompo from "@/components/WindowCompo";
+import { FaLinux, FaWindows } from "react-icons/fa";
+import { useState } from "react";
+import { FaApple, FaAndroid } from "react-icons/fa";
+
+
+
+
+
 
 export default function Home() {
+const [selectScreen,setSelectScreen]=useState("default")
+
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <div className="">
+
+<div className="md:hidden">
+    { selectScreen=="default"  &&  <SelectMobile setSelectScreen={setSelectScreen} /> }
+
+{ selectScreen=="android"  &&  <AndroidPortfolio /> }
+{selectScreen=="ios"  &&    <Ios />  }
+
+      </div> 
+
+      <div className="hidden  md:block">
+
+  { selectScreen=="default"  &&  <SelectWinLin setSelectScreen={setSelectScreen} /> }
+ { selectScreen=="linux"  &&  <Linux /> }
+  {selectScreen=="window"  &&  <WindowCompo/> }
+
+  </div>
+</div>
   );
 }
+
+
+
+
+
+
+
+const SelectWinLin = ({ setSelectScreen }) => {
+  return (
+    <div
+      className="
+        h-screen
+        bg-gradient-to-br
+        from-black
+        via-slate-900
+        to-black
+        flex
+        items-center
+        justify-center
+        px-6
+      "
+    >
+      <div className="w-full max-w-4xl">
+        <h1 className="text-white text-4xl font-bold text-center mb-3">
+          Choose Your Experience
+        </h1>
+
+        <p className="text-center text-white/60 mb-12">
+          Select an operating system style portfolio
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Windows */}
+          <button
+            onClick={() => setSelectScreen("window")}
+            className="
+              group
+              bg-white/10
+              backdrop-blur-xl
+              border
+              border-white/10
+              rounded-3xl
+              p-10
+              hover:scale-105
+              hover:border-blue-500
+              transition-all
+              duration-300
+            "
+          >
+            <div className="flex flex-col items-center">
+              <FaWindows
+                size={100}
+                className="text-blue-500 group-hover:rotate-6 transition"
+              />
+
+              <h2 className="text-white text-3xl font-bold mt-6">
+                Windows
+              </h2>
+
+              <p className="text-white/60 mt-3 text-center">
+                Windows 11 inspired desktop portfolio experience
+              </p>
+            </div>
+          </button>
+
+          {/* Linux */}
+          <button
+            onClick={() => setSelectScreen("linux")}
+            className="
+              group
+              bg-white/10
+              backdrop-blur-xl
+              border
+              border-white/10
+              rounded-3xl
+              p-10
+              hover:scale-105
+              hover:border-yellow-500
+              transition-all
+              duration-300
+            "
+          >
+            <div className="flex flex-col items-center">
+              <FaLinux
+                size={100}
+                className="text-yellow-400 group-hover:rotate-6 transition"
+              />
+
+              <h2 className="text-white text-3xl font-bold mt-6">
+                Linux
+              </h2>
+
+              <p className="text-white/60 mt-3 text-center">
+                Interactive terminal-based portfolio experience
+              </p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const SelectMobile = ({ setSelectScreen }) => {
+  return (
+    <div
+      className="
+        h-screen
+        bg-gradient-to-br
+        from-black
+        via-slate-950
+        to-black
+        flex
+        items-center
+        justify-center
+        px-6
+      "
+    >
+      <div className="w-full max-w-4xl">
+        <h1 className="text-white text-4xl md:text-5xl font-bold text-center">
+          Select Mobile OS
+        </h1>
+
+        <p className="text-white/60 text-center mt-3 mb-12">
+          Choose your preferred mobile experience
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* iOS */}
+          <button
+            onClick={() => setSelectScreen("ios")}
+            className="
+              group
+              relative
+              overflow-hidden
+              rounded-3xl
+              bg-white/10
+              backdrop-blur-xl
+              border border-white/10
+              p-10
+              hover:scale-105
+              hover:border-white/40
+              transition-all duration-300
+            "
+          >
+            <div className="flex flex-col items-center">
+              <div
+                className="
+                  w-32 h-32
+                  rounded-[35px]
+                  bg-white/15
+                  flex items-center justify-center
+                  backdrop-blur-xl
+                "
+              >
+                <FaApple
+                  size={80}
+                  className="
+                    text-white
+                    group-hover:scale-110
+                    transition
+                  "
+                />
+              </div>
+
+              <h2 className="text-white text-3xl font-bold mt-6">
+                iOS
+              </h2>
+
+              <p className="text-white/60 mt-3 text-center">
+                iPhone-inspired portfolio with app icons,
+                widgets, blur effects and smooth animations.
+              </p>
+            </div>
+          </button>
+
+          {/* Android */}
+          <button
+            onClick={() => setSelectScreen("android")}
+            className="
+              group
+              relative
+              overflow-hidden
+              rounded-3xl
+              bg-white/10
+              backdrop-blur-xl
+              border border-white/10
+              p-10
+              hover:scale-105
+              hover:border-green-500
+              transition-all duration-300
+            "
+          >
+            <div className="flex flex-col items-center">
+              <div
+                className="
+                  w-32 h-32
+                  rounded-[35px]
+                  bg-white/15
+                  flex items-center justify-center
+                  backdrop-blur-xl
+                "
+              >
+                <FaAndroid
+                  size={80}
+                  className="
+                    text-green-400
+                    group-hover:scale-110
+                    transition
+                  "
+                />
+              </div>
+
+              <h2 className="text-white text-3xl font-bold mt-6">
+                Android
+              </h2>
+
+              <p className="text-white/60 mt-3 text-center">
+                Android-inspired portfolio with Material UI,
+                widgets and modern app drawer design.
+              </p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
+
+
+
