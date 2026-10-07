@@ -254,7 +254,7 @@ const StartCompo = ({
                   />
                 </div>
 
-                <span className="text-sm font-medium">
+                <span className="text-sm font-medium text-black">
                   {item.title}
                 </span>
               </button>
