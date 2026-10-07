@@ -11,5 +11,5 @@
 
 
 .nl-badge{
-  display: none;
+  display: none !important;
 }
