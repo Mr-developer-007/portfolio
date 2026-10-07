@@ -35,10 +35,31 @@ const WindowCompo = () => {
     forceRender((prev) => prev + 1);
   };
 
+const handleOpentop=(title,index)=>{
+  const maxZ =
+      Math.max(
+        0,
+        ...Object.values(dataref.current).map(
+          (item) => item?.style?.zIndex || 0
+        )
+      ) + 1;
 
+    updateWindow(title, {
+      open: true,
+     index,
+      w: 80,
+      h: 80,
+
+      style: {
+        width: "80%",
+        height: "80%",
+        zIndex: maxZ,
+      },
+    });
+}
 
 return (
-    <div className="h-screen flex flex-col justify-between">
+    <div className="h-screen flex flex-col justify-between text-black">
       <div className="flex-1 relative windowbg overflow-hidden">
 
         <StartCompo
@@ -83,6 +104,26 @@ return (
         )}
 
       </div>
+
+{gets.map((item,index)=>{
+
+const topac= (index * 75)+30
+  return(
+    <div
+    onClick={() => {handleOpentop(item.title,index),setShowwindow(false)}}
+    className={`absolute left-5 w-14 flex flex-col cursor-pointer items-center`} style={{top:topac}} >
+       <img
+                    src={item.icon}
+                    alt={item.title}
+                    className="h-7 w-7 object-contain"
+                  />
+    <p className="">  {item.title}</p>
+      </div>
+  )
+})
+
+}
+
 
       <div className="bg-[#2562DF] w-full h-10 flex">
         <div
